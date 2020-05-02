@@ -17,6 +17,4 @@ kind: StorageClass
 metadata:
   name: http-ssd
   namespace: project1
-provisioner: kubernetes.io/gce-pd
-parameters:
-  type: pd-standard
+provisioner: kubernetes.io/azure-disk
